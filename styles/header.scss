@@ -1,0 +1,28 @@
+$font-for-all-page: 'Encode Sans Condensed', sans-serif;
+$color-for-orange-box: rgb(254,94,9);
+$width-for-all-big-blocks: 100%;
+
+.left-text-button {
+    font-family: $font-for-all-page;
+    font-size: 40px;
+    background: none;
+    border: none;
+}
+
+.box-with-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-bottom: 1px black solid;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.header-wrapper {
+    width: $width-for-all-big-blocks;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
