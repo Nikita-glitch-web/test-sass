@@ -85,6 +85,115 @@ $width-for-all-big-blocks: 100%;
     padding-bottom: 2%;
   }
 
+  .left-tall-img {
+    width: $width-for-all-big-blocks;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    
+  }
+
+
+  .just-title {
+    font-family: $font-for-all-page;
+   font-size: 80px; 
+   padding-left: 50px;
+   padding-bottom: 50px;
+  }
+
+  .left-tall-img-box {
+    width: 50%;
+  }
+
+  .box-with-just-title {
+    border-bottom: 1px solid black;
+  }
+
+ 
+
+
+  .box-with-tall-img {
+    display: flex;
+
+  }
+
+
+  .right-text-part {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+
+  .text-of-right-bottom-part {
+    font-size: 23px;
+    font-family: $font-for-all-page;
+  }
+
+
+  .element-in-button {
+    padding-right: 16px;
+  }
+
+
+  .button-without-background {
+    border: none;
+    background: none;
+    font-size: 40px;
+    font-family: $font-for-all-page;
+
+  }
+
+  .bottom-part-of-rignht-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+  }
+
+  .button-without-background:hover {
+    cursor: pointer;
+  }
+
+  .box-with-background-cloth-img {
+    background-image: url(/images/background-with-black-cloth.webp);
+    width: 100%;
+    width: $width-for-all-big-blocks;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+  .title-for-box-with-background-cloth {
+    font-family: $font-for-all-page;
+    font-size: 80px;
+    color: white;
+    padding-top: 22%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+  }
+
+  .text-of-right-bottom-part-second {
+    color: white;
+  }
+
+  .button-without-background-second {
+    color: white;
+  }
+
+  .box-with-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 50px;
+  }
+
   @media (max-width: 1000px) {
     .white-empty-box {
         display: flex;
@@ -109,6 +218,31 @@ $width-for-all-big-blocks: 100%;
         font-size: 50px;
     }
 
+    .box-with-tall-img {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right-text-part {
+        width: 100%;
+    }
+
+    .left-tall-img-box {
+        width: 100%;
+    }
+
+    .bottom-part-of-rignht-wrapper {
+        padding-bottom: 3%;
+    }
+
+    .just-title {
+        padding-top: 40px;
+        font-size: 45px;
+    }
+
+    .title-for-box-with-background-cloth {
+        padding-top: 10%;
+    }
 
   }
 
