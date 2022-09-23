@@ -194,6 +194,21 @@ $width-for-all-big-blocks: 100%;
     padding-top: 50px;
   }
 
+
+  .left-jacques-img-box {
+    width: 50%;
+    height: 800px;
+  }
+
+  .left-jacques-img {
+    width: 100%;
+    
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
   @media (max-width: 1000px) {
     .white-empty-box {
         display: flex;
