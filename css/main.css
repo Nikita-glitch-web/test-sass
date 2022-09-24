@@ -187,7 +187,7 @@
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 800px;
+  height: 100%;
 }
 
 .title-for-purple-box {
@@ -213,6 +213,14 @@
 .bottom-part-of-rignht-wrapper {
   border-top: 1px solid black;
   padding-bottom: 2%;
+}
+
+.box-with-background-cloth-img-second {
+  background-image: url(/images/green-background.webp);
+}
+
+.right-purple-text-box-second {
+  background: rgb(147, 155, 251);
 }
 
 @media (max-width: 1000px) {
@@ -253,6 +261,24 @@
   }
   .title-for-box-with-background-cloth {
     padding-top: 10%;
+  }
+  .box-with-jacques-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-jacques-img-box {
+    width: 100%;
+    height: 100%;
+  }
+  .right-purple-text-box {
+    width: 100%;
+  }
+  .bottom-part-of-rignht-wrapper {
+    padding-top: 10%;
+  }
+  .box-with-top-part-of-page {
+    padding-bottom: 30%;
   }
 }
 @media (max-width: 648px) {
