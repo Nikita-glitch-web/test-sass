@@ -280,6 +280,12 @@
   .box-with-top-part-of-page {
     padding-bottom: 30%;
   }
+  .background-with-bottles-box {
+    background-attachment: none;
+  }
+  .box-with-background-cloth-img {
+    background-attachment: none;
+  }
 }
 @media (max-width: 648px) {
   .right-big-text {
